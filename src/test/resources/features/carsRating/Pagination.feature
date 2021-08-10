@@ -1,4 +1,4 @@
-@Pagination, @Regression
+@Pagination @Regression
 Feature: Pagination in Overall page
   User can use pagination control to navigate in Overall Rating page
   click prev arrow, next arrow, input page number

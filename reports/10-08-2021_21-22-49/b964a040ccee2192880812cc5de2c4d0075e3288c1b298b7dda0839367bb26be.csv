@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Page Header's Home Link","header on 'Make' page should have a homepage link","FAILURE","2021-08-10T21:22:56.972+12:00[Pacific/Auckland]","0.0","13.91"
+"Pagination in Overall page","Navigate by Input Page Number","FAILURE","2021-08-10T21:23:31.628+12:00[Pacific/Auckland]","0.0","43.32"
+"Pagination in Overall page","Navigate by click Next Page Arrow","FAILURE","2021-08-10T21:24:14.967+12:00[Pacific/Auckland]","0.0","29.71"
+"Pagination in Overall page","Navigate by click Previous Page Arrow","ERROR","2021-08-10T21:24:44.677+12:00[Pacific/Auckland]","0.0","30.77"
+"Pagination in Overall page","Input Page Number is out of range","FAILURE","2021-08-10T21:25:15.466+12:00[Pacific/Auckland]","0.0","10.82"
+"Register on Buggy Cars Rating","Register with invalid password or duplicate login","FAILURE","2021-08-10T21:25:34.616+12:00[Pacific/Auckland]","0.0","24.9"

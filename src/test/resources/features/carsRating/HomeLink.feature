@@ -1,4 +1,4 @@
-@Homelink, @Regression
+@Homelink @Regression
 Feature: Page Header's Home Link
   In any page, user can navigate to home page by click the 'Buggy Rating' on the page header's home link.
 

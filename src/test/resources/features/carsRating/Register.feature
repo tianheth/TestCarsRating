@@ -1,4 +1,4 @@
-@Register, @Regression
+@Register @Regression
 Feature: Register on Buggy Cars Rating
   Test application will replace login Random with an UUID so it will not be duplicate.
 

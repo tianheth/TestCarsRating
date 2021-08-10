@@ -1,0 +1,97 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Buggy Cars Rating</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <base href="/">
+  <link href="/css/vendor.a5856ccaff510c09debf.css" rel="stylesheet"><link href="/css/app.a5856ccaff510c09debf.css" rel="stylesheet"><style></style><style>.card[_ngcontent-fgv-4] img[_ngcontent-fgv-4]{height:170px;margin-top:20px}</style><style>input[_ngcontent-fgv-7]{display:inline-block;width:40px;padding-left:5px;text-align:center}</style></head>
+  <body>
+    <my-app _nghost-fgv-1=""><header _ngcontent-fgv-1="">
+  <nav _ngcontent-fgv-1="" class="navbar navbar-full navbar-dark bg-inverse">
+    <div _ngcontent-fgv-1="" class="container">
+      <a _ngcontent-fgv-1="" class="navbar-brand" href="/">Buggy Rating</a>
+      <my-login _ngcontent-fgv-1="" _nghost-fgv-2=""><!--template bindings={}--><div _ngcontent-fgv-2="" class="pull-xs-right">
+    <form _ngcontent-fgv-2="" class="form-inline">
+        <div _ngcontent-fgv-2="" class="form-group">
+            <!--template bindings={}-->
+            <input _ngcontent-fgv-2="" class="form-control form-control-sm input-sm ng-untouched ng-pristine ng-invalid" name="login" ngmodel="" placeholder="Login" required="" type="text">
+            <input _ngcontent-fgv-2="" class="form-control form-control-sm ng-untouched ng-pristine ng-invalid" name="password" ngmodel="" required="" type="password">
+        </div>
+        <button _ngcontent-fgv-2="" class="btn btn-success" type="submit">Login</button>
+        <a _ngcontent-fgv-2="" class="btn btn-success-outline" href="/register">Register</a>
+    </form>
+</div>
+
+<!--template bindings={}--></my-login>
+    </div>
+  </nav>
+
+  <div _ngcontent-fgv-1="" class="jumbotron jumbotron-fluid">
+    <div _ngcontent-fgv-1="" class="container">
+      <div _ngcontent-fgv-1="" class="row">
+        <div _ngcontent-fgv-1="" class="col-md-4">
+          <h1 _ngcontent-fgv-1="" class="display-4">Buggy<br _ngcontent-fgv-1="">Cars<br _ngcontent-fgv-1="">Rating</h1>
+        </div>
+        <div _ngcontent-fgv-1="" class="col-md-8">
+          <div _ngcontent-fgv-1="" class="center-block">
+            <img _ngcontent-fgv-1="" class="img-fluid" src="/img/header-car.gif">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div _ngcontent-fgv-1="" class="container" role="main">
+  <main _ngcontent-fgv-1="" class="row">
+    <router-outlet _ngcontent-fgv-1=""></router-outlet><my-overall _nghost-fgv-6=""><!--template bindings={}-->
+<!--template bindings={}--><div _ngcontent-fgv-6="" class="container">
+    <div _ngcontent-fgv-6="" class="row">
+        <table _ngcontent-fgv-6="" class="cars table table-hover">
+            <thead _ngcontent-fgv-6="">
+                <tr _ngcontent-fgv-6="">
+                    <th _ngcontent-fgv-6="" class="thumbnail">&nbsp;</th>
+                    <th _ngcontent-fgv-6=""><a _ngcontent-fgv-6="">Make</a></th>
+                    <th _ngcontent-fgv-6=""><a _ngcontent-fgv-6="">Model</a></th>
+                    <th _ngcontent-fgv-6=""><a _ngcontent-fgv-6="">Rank</a></th>
+                    <th _ngcontent-fgv-6=""><a _ngcontent-fgv-6="">Votes</a></th>
+                    <th _ngcontent-fgv-6=""><a _ngcontent-fgv-6="">Engine</a></th>
+                    <th _ngcontent-fgv-6="" class="comments">Comments</th>
+                </tr>
+            </thead>
+            <tbody _ngcontent-fgv-6="">
+                <!--template bindings={}-->
+            </tbody>
+        </table>
+    </div>
+    <my-pager _ngcontent-fgv-6="" _nghost-fgv-7=""><!--template bindings={}--><div _ngcontent-fgv-7="" class="row">
+    <div _ngcontent-fgv-7="" class="pull-xs-right">
+        <a _ngcontent-fgv-7="" class="btn">«</a>
+        <input _ngcontent-fgv-7="" class="form-control input-xs ng-valid ng-touched ng-dirty" type="text">
+        <a _ngcontent-fgv-7="" class="btn">»</a>
+        page 16 of 5
+    </div>
+</div></my-pager>
+</div></my-overall>
+  </main>
+
+  <hr _ngcontent-fgv-1="">
+
+  <footer _ngcontent-fgv-1="" class="footer">
+    <div _ngcontent-fgv-1="" class="container">
+      <div _ngcontent-fgv-1="" class="pull-xs-right">
+        <a _ngcontent-fgv-1="" href="https://www.facebook.com" target="_blank" title="Facebook">
+          <img _ngcontent-fgv-1="" src="/img/FB-f-Logo__blue_29.png">
+        </a>
+
+        <a _ngcontent-fgv-1="" target="_blank" title="Twitter" href="https://www.twitter-broken.com/">
+          <img _ngcontent-fgv-1="" src="/img/twitter.png">
+        </a>
+      </div>
+
+      <p _ngcontent-fgv-1="">© 2016 Buggy Software, Inc.</p>
+    </div>
+  </footer>
+</div></my-app>
+  <script type="text/javascript" src="/js/polyfills.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/vendor.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/app.a5856ccaff510c09debf.js"></script>
+
+</body></html>

@@ -41,12 +41,12 @@ public class PaginationSteps {
         overallPage.goToPage(pageNum);
     }
 
-    @When("User clicks Next Page button")
+    @When("User clicks Next Page arrow")
     public void user_clicks_next_page_button() {
         overallPage.goToNextPage();
     }
 
-    @When("User clicks Prev Page button")
+    @When("User clicks Prev Page arrow")
     public void user_clicks_prev_page_button() {
         overallPage.goToPrevPage();
     }

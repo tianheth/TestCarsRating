@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Page Header's Home Link" skipped="0" tests="3" time="34.17" timestamp="2021-08-10 09:22:56"><testcase name="header on 'Make' page should have a homepage link"><failure message="expected:&lt;...uggy.justtestit.org/[]&gt; but was:&lt;...uggy.justtestit.org/[broken]&gt;" type="java.lang.AssertionError">expected:&lt;...uggy.justtestit.org/[]&gt; but was:&lt;...uggy.justtestit.org/[broken]&gt;</failure><system-err>expected:&lt;...uggy.justtestit.org/[]&gt; but was:&lt;...uggy.justtestit.org/[broken]&gt;
+carsRating.automation.pages.BasePage.verifyHomeLink(BasePage.java:29)
+carsRating.automation.steps.PageSteps.verifyHomeLink(PageSteps.java:73)
+carsRating.automation.stepDef.HomeLinkSteps.the_header_has_a_home_link(HomeLinkSteps.java:50)
+✽.the header should has a home link(file:///Users/Shared/code/java/TestCarsRating/src/test/resources/features/carsRating/HomeLink.feature:9)
+</system-err></testcase><testcase name="header on 'Model' page should have a homepage link"/><testcase name="header on 'Overall' page should have a homepage link"/></testsuite>

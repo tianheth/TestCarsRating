@@ -1,0 +1,202 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Buggy Cars Rating</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <base href="/">
+  <link href="/css/vendor.a5856ccaff510c09debf.css" rel="stylesheet"><link href="/css/app.a5856ccaff510c09debf.css" rel="stylesheet"><style></style><style>.card[_ngcontent-jfv-4] img[_ngcontent-jfv-4]{height:170px;margin-top:20px}</style><style>input[_ngcontent-jfv-7]{display:inline-block;width:40px;padding-left:5px;text-align:center}</style></head>
+  <body>
+    <my-app _nghost-jfv-1=""><header _ngcontent-jfv-1="">
+  <nav _ngcontent-jfv-1="" class="navbar navbar-full navbar-dark bg-inverse">
+    <div _ngcontent-jfv-1="" class="container">
+      <a _ngcontent-jfv-1="" class="navbar-brand" href="/">Buggy Rating</a>
+      <my-login _ngcontent-jfv-1="" _nghost-jfv-2=""><!--template bindings={}--><div _ngcontent-jfv-2="" class="pull-xs-right">
+    <form _ngcontent-jfv-2="" class="form-inline">
+        <div _ngcontent-jfv-2="" class="form-group">
+            <!--template bindings={}-->
+            <input _ngcontent-jfv-2="" class="form-control form-control-sm input-sm ng-untouched ng-pristine ng-invalid" name="login" ngmodel="" placeholder="Login" required="" type="text">
+            <input _ngcontent-jfv-2="" class="form-control form-control-sm ng-untouched ng-pristine ng-invalid" name="password" ngmodel="" required="" type="password">
+        </div>
+        <button _ngcontent-jfv-2="" class="btn btn-success" type="submit">Login</button>
+        <a _ngcontent-jfv-2="" class="btn btn-success-outline" href="/register">Register</a>
+    </form>
+</div>
+
+<!--template bindings={}--></my-login>
+    </div>
+  </nav>
+
+  <div _ngcontent-jfv-1="" class="jumbotron jumbotron-fluid">
+    <div _ngcontent-jfv-1="" class="container">
+      <div _ngcontent-jfv-1="" class="row">
+        <div _ngcontent-jfv-1="" class="col-md-4">
+          <h1 _ngcontent-jfv-1="" class="display-4">Buggy<br _ngcontent-jfv-1="">Cars<br _ngcontent-jfv-1="">Rating</h1>
+        </div>
+        <div _ngcontent-jfv-1="" class="col-md-8">
+          <div _ngcontent-jfv-1="" class="center-block">
+            <img _ngcontent-jfv-1="" class="img-fluid" src="/img/header-car.gif">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div _ngcontent-jfv-1="" class="container" role="main">
+  <main _ngcontent-jfv-1="" class="row">
+    <router-outlet _ngcontent-jfv-1=""></router-outlet><my-overall _nghost-jfv-6=""><!--template bindings={}-->
+<!--template bindings={}--><div _ngcontent-jfv-6="" class="container">
+    <div _ngcontent-jfv-6="" class="row">
+        <table _ngcontent-jfv-6="" class="cars table table-hover">
+            <thead _ngcontent-jfv-6="">
+                <tr _ngcontent-jfv-6="">
+                    <th _ngcontent-jfv-6="" class="thumbnail">&nbsp;</th>
+                    <th _ngcontent-jfv-6=""><a _ngcontent-jfv-6="">Make</a></th>
+                    <th _ngcontent-jfv-6=""><a _ngcontent-jfv-6="">Model</a></th>
+                    <th _ngcontent-jfv-6=""><a _ngcontent-jfv-6="">Rank</a></th>
+                    <th _ngcontent-jfv-6=""><a _ngcontent-jfv-6="">Votes</a></th>
+                    <th _ngcontent-jfv-6=""><a _ngcontent-jfv-6="">Engine</a></th>
+                    <th _ngcontent-jfv-6="" class="comments">Comments</th>
+                </tr>
+            </thead>
+            <tbody _ngcontent-jfv-6="">
+                <!--template bindings={}--><tr _ngcontent-jfv-6="">
+                    <td _ngcontent-jfv-6="" class="thumbnail">
+                        <a _ngcontent-jfv-6="" href="/model/c0bm09bgagshpkqbsuk0|c0bm09bgagshpkqbsum0">
+                            <img _ngcontent-jfv-6="" class="img-thumbnail" src="/img/cars/spider.jpg" title="Alfa Romeo 4c Spider">
+                        </a>
+                    </td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/make/c0bm09bgagshpkqbsuk0">Alfa Romeo</a></td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/model/c0bm09bgagshpkqbsuk0|c0bm09bgagshpkqbsum0">4c Spider</a></td>
+                    <td _ngcontent-jfv-6="">16</td>
+                    <td _ngcontent-jfv-6="">364</td>
+                    <td _ngcontent-jfv-6="">1.75l</td>
+                    <td _ngcontent-jfv-6="">
+                        <!--template bindings={}--><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">test</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">ffffffffffdsssss             </p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-jfv-6="" href="/model/c0bm09bgagshpkqbsuk0|c0bm09bgagshpkqbsum0">View more</a>
+                    </td>
+                </tr><tr _ngcontent-jfv-6="">
+                    <td _ngcontent-jfv-6="" class="thumbnail">
+                        <a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsusg|c0bm09jgagshpkqbsut0">
+                            <img _ngcontent-jfv-6="" class="img-thumbnail" src="/img/cars/veyron.jpg" title="Bugatti Veyron">
+                        </a>
+                    </td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/make/c0bm09jgagshpkqbsusg">Bugatti</a></td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsusg|c0bm09jgagshpkqbsut0">Veyron</a></td>
+                    <td _ngcontent-jfv-6="">17</td>
+                    <td _ngcontent-jfv-6="">266</td>
+                    <td _ngcontent-jfv-6="">8.0l</td>
+                    <td _ngcontent-jfv-6="">
+                        <!--template bindings={}--><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">test</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">3adasda</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsusg|c0bm09jgagshpkqbsut0">View more</a>
+                    </td>
+                </tr><tr _ngcontent-jfv-6="">
+                    <td _ngcontent-jfv-6="" class="thumbnail">
+                        <a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsv00|c0bm09jgagshpkqbsv1g">
+                            <img _ngcontent-jfv-6="" class="img-thumbnail" src="/img/cars/lancia-ypsilon.jpg" title="Lancia Ypsilon">
+                        </a>
+                    </td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/make/c0bm09jgagshpkqbsv00">Lancia</a></td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsv00|c0bm09jgagshpkqbsv1g">Ypsilon</a></td>
+                    <td _ngcontent-jfv-6="">18</td>
+                    <td _ngcontent-jfv-6="">202</td>
+                    <td _ngcontent-jfv-6="">1.25l</td>
+                    <td _ngcontent-jfv-6="">
+                        <!--template bindings={}--><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">broken image test sample data</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">This is my vote!</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsv00|c0bm09jgagshpkqbsv1g">View more</a>
+                    </td>
+                </tr><tr _ngcontent-jfv-6="">
+                    <td _ngcontent-jfv-6="" class="thumbnail">
+                        <a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsusg|c0bm09jgagshpkqbsuug">
+                            <img _ngcontent-jfv-6="" class="img-thumbnail" src="/img/cars/chiron.jpg" title="Bugatti Chiron">
+                        </a>
+                    </td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/make/c0bm09jgagshpkqbsusg">Bugatti</a></td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsusg|c0bm09jgagshpkqbsuug">Chiron</a></td>
+                    <td _ngcontent-jfv-6="">19</td>
+                    <td _ngcontent-jfv-6="">197</td>
+                    <td _ngcontent-jfv-6="">7.99l</td>
+                    <td _ngcontent-jfv-6="">
+                        <!--template bindings={}--><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">This is my vote!</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">6QE4bi7jOR2SYzRZVCI4n332Wra5Q8itr4nTn7BOxIcUo2xcMfXf1sbVKKlu5sURWVrE75E9DJddQXoWLB7c2sGA7IAhTRRC5HIZeutVmMQC60JGn6lHnYIX4oShhOVm6Eq5YbtBm6xwizfLkvQVZ67E3tLUPQp07VhRVv5Pd3sipEUP78Pzb2ZQyRfkmOjtd00CruMl9kID6y8HCuoHBNJWL4Gn5uPPC18GQlBKhuy4BXngdcBR08hoTHA0Kq5MPJC5kUvtKQOXt9ffkfil5iSnb2RbzlilRtKd3t2yZzOvw66KUwRWvX0fbymtZiqSA5MovTMd4SnCtP03Ge2Ok12L4LZeZpi95zZbdj7Nef8AenNRNbsWSL8JNupAZ4xZHloeeN6Wg3zut6wxwQjKrJEvmFnVHfxTDrnXgguQ3simyjb8ENFnJlLlJ6dYjSnbmhT9XdhFFgPvqFRbs3DDOMpABLHj75w5OTvemGFKx0OvpBGVCuXr</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-jfv-6="" href="/model/c0bm09jgagshpkqbsusg|c0bm09jgagshpkqbsuug">View more</a>
+                    </td>
+                </tr><tr _ngcontent-jfv-6="">
+                    <td _ngcontent-jfv-6="" class="thumbnail">
+                        <a _ngcontent-jfv-6="" href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsub0">
+                            <img _ngcontent-jfv-6="" class="img-thumbnail" src="/img/cars/Huracan.jpg" title="Lamborghini HURACÁN">
+                        </a>
+                    </td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/make/c0bm09bgagshpkqbsuag">Lamborghini</a></td>
+                    <td _ngcontent-jfv-6=""><a _ngcontent-jfv-6="" href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsub0">HURACÁN</a></td>
+                    <td _ngcontent-jfv-6="">20</td>
+                    <td _ngcontent-jfv-6="">178</td>
+                    <td _ngcontent-jfv-6="">5.2l</td>
+                    <td _ngcontent-jfv-6="">
+                        <!--template bindings={}--><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">2rv123r12v3123r123v13rv23v123123v23v132123123123112v123vv32v123123v12123v123</p>
+                        </div><div _ngcontent-jfv-6="">
+                            <p _ngcontent-jfv-6="" class="comment small">Fjdnndjdkkdbdbhdqw5&amp;7%,%9/96</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-jfv-6="" href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsub0">View more</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <my-pager _ngcontent-jfv-6="" _nghost-jfv-7=""><!--template bindings={}--><div _ngcontent-jfv-7="" class="row">
+    <div _ngcontent-jfv-7="" class="pull-xs-right">
+        <a _ngcontent-jfv-7="" class="btn">«</a>
+        <input _ngcontent-jfv-7="" class="form-control input-xs ng-valid ng-touched ng-dirty" type="text">
+        <a _ngcontent-jfv-7="" class="btn">»</a>
+        page 4 of 5
+    </div>
+</div></my-pager>
+</div></my-overall>
+  </main>
+
+  <hr _ngcontent-jfv-1="">
+
+  <footer _ngcontent-jfv-1="" class="footer">
+    <div _ngcontent-jfv-1="" class="container">
+      <div _ngcontent-jfv-1="" class="pull-xs-right">
+        <a _ngcontent-jfv-1="" href="https://www.facebook.com" target="_blank" title="Facebook">
+          <img _ngcontent-jfv-1="" src="/img/FB-f-Logo__blue_29.png">
+        </a>
+
+        <a _ngcontent-jfv-1="" target="_blank" title="Twitter" href="https://www.twitter-broken.com/">
+          <img _ngcontent-jfv-1="" src="/img/twitter.png">
+        </a>
+      </div>
+
+      <p _ngcontent-jfv-1="">© 2016 Buggy Software, Inc.</p>
+    </div>
+  </footer>
+</div></my-app>
+  <script type="text/javascript" src="/js/polyfills.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/vendor.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/app.a5856ccaff510c09debf.js"></script>
+
+</body></html>

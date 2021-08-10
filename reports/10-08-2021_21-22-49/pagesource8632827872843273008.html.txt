@@ -1,0 +1,202 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Buggy Cars Rating</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <base href="/">
+  <link href="/css/vendor.a5856ccaff510c09debf.css" rel="stylesheet"><link href="/css/app.a5856ccaff510c09debf.css" rel="stylesheet"><style></style><style>.card[_ngcontent-dxr-4] img[_ngcontent-dxr-4]{height:170px;margin-top:20px}</style><style>input[_ngcontent-dxr-7]{display:inline-block;width:40px;padding-left:5px;text-align:center}</style></head>
+  <body>
+    <my-app _nghost-dxr-1=""><header _ngcontent-dxr-1="">
+  <nav _ngcontent-dxr-1="" class="navbar navbar-full navbar-dark bg-inverse">
+    <div _ngcontent-dxr-1="" class="container">
+      <a _ngcontent-dxr-1="" class="navbar-brand" href="/">Buggy Rating</a>
+      <my-login _ngcontent-dxr-1="" _nghost-dxr-2=""><!--template bindings={}--><div _ngcontent-dxr-2="" class="pull-xs-right">
+    <form _ngcontent-dxr-2="" class="form-inline">
+        <div _ngcontent-dxr-2="" class="form-group">
+            <!--template bindings={}-->
+            <input _ngcontent-dxr-2="" class="form-control form-control-sm input-sm ng-untouched ng-pristine ng-invalid" name="login" ngmodel="" placeholder="Login" required="" type="text">
+            <input _ngcontent-dxr-2="" class="form-control form-control-sm ng-untouched ng-pristine ng-invalid" name="password" ngmodel="" required="" type="password">
+        </div>
+        <button _ngcontent-dxr-2="" class="btn btn-success" type="submit">Login</button>
+        <a _ngcontent-dxr-2="" class="btn btn-success-outline" href="/register">Register</a>
+    </form>
+</div>
+
+<!--template bindings={}--></my-login>
+    </div>
+  </nav>
+
+  <div _ngcontent-dxr-1="" class="jumbotron jumbotron-fluid">
+    <div _ngcontent-dxr-1="" class="container">
+      <div _ngcontent-dxr-1="" class="row">
+        <div _ngcontent-dxr-1="" class="col-md-4">
+          <h1 _ngcontent-dxr-1="" class="display-4">Buggy<br _ngcontent-dxr-1="">Cars<br _ngcontent-dxr-1="">Rating</h1>
+        </div>
+        <div _ngcontent-dxr-1="" class="col-md-8">
+          <div _ngcontent-dxr-1="" class="center-block">
+            <img _ngcontent-dxr-1="" class="img-fluid" src="/img/header-car.gif">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div _ngcontent-dxr-1="" class="container" role="main">
+  <main _ngcontent-dxr-1="" class="row">
+    <router-outlet _ngcontent-dxr-1=""></router-outlet><my-overall _nghost-dxr-6=""><!--template bindings={}-->
+<!--template bindings={}--><div _ngcontent-dxr-6="" class="container">
+    <div _ngcontent-dxr-6="" class="row">
+        <table _ngcontent-dxr-6="" class="cars table table-hover">
+            <thead _ngcontent-dxr-6="">
+                <tr _ngcontent-dxr-6="">
+                    <th _ngcontent-dxr-6="" class="thumbnail">&nbsp;</th>
+                    <th _ngcontent-dxr-6=""><a _ngcontent-dxr-6="">Make</a></th>
+                    <th _ngcontent-dxr-6=""><a _ngcontent-dxr-6="">Model</a></th>
+                    <th _ngcontent-dxr-6=""><a _ngcontent-dxr-6="">Rank</a></th>
+                    <th _ngcontent-dxr-6=""><a _ngcontent-dxr-6="">Votes</a></th>
+                    <th _ngcontent-dxr-6=""><a _ngcontent-dxr-6="">Engine</a></th>
+                    <th _ngcontent-dxr-6="" class="comments">Comments</th>
+                </tr>
+            </thead>
+            <tbody _ngcontent-dxr-6="">
+                <!--template bindings={}--><tr _ngcontent-dxr-6="">
+                    <td _ngcontent-dxr-6="" class="thumbnail">
+                        <a _ngcontent-dxr-6="" href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuh0">
+                            <img _ngcontent-dxr-6="" class="img-thumbnail" src="/img/cars/Diablo.jpg" title="Lamborghini Diablo">
+                        </a>
+                    </td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/make/c0bm09bgagshpkqbsuag">Lamborghini</a></td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuh0">Diablo</a></td>
+                    <td _ngcontent-dxr-6="">1</td>
+                    <td _ngcontent-dxr-6="">2295</td>
+                    <td _ngcontent-dxr-6="">6.0l</td>
+                    <td _ngcontent-dxr-6="">
+                        <!--template bindings={}--><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">I like Lamborghini Diablo on 21080900004247</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">a diablo is a diablo</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">good</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-dxr-6="" href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuh0">View more</a>
+                    </td>
+                </tr><tr _ngcontent-dxr-6="">
+                    <td _ngcontent-dxr-6="" class="thumbnail">
+                        <a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsuq0|c0bm09jgagshpkqbsuqg">
+                            <img _ngcontent-dxr-6="" class="img-thumbnail" src="/img/cars/zonda.jpg" title="Pagani Zonda">
+                        </a>
+                    </td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/make/c0bm09jgagshpkqbsuq0">Pagani</a></td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsuq0|c0bm09jgagshpkqbsuqg">Zonda</a></td>
+                    <td _ngcontent-dxr-6="">2</td>
+                    <td _ngcontent-dxr-6="">1090</td>
+                    <td _ngcontent-dxr-6="">6.0l</td>
+                    <td _ngcontent-dxr-6="">
+                        <!--template bindings={}--><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">test</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">test</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsuq0|c0bm09jgagshpkqbsuqg">View more</a>
+                    </td>
+                </tr><tr _ngcontent-dxr-6="">
+                    <td _ngcontent-dxr-6="" class="thumbnail">
+                        <a _ngcontent-dxr-6="" href="/model/c0bm09bgagshpkqbsuk0|c0bm09bgagshpkqbsup0">
+                            <img _ngcontent-dxr-6="" class="img-thumbnail" src="/img/cars/giulia.png" title="Alfa Romeo Guilia Quadrifoglio">
+                        </a>
+                    </td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/make/c0bm09bgagshpkqbsuk0">Alfa Romeo</a></td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/model/c0bm09bgagshpkqbsuk0|c0bm09bgagshpkqbsup0">Guilia Quadrifoglio</a></td>
+                    <td _ngcontent-dxr-6="">3</td>
+                    <td _ngcontent-dxr-6="">895</td>
+                    <td _ngcontent-dxr-6="">2.9l</td>
+                    <td _ngcontent-dxr-6="">
+                        <!--template bindings={}--><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">alert("Hello! I am an alert box!!");</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">com</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-dxr-6="" href="/model/c0bm09bgagshpkqbsuk0|c0bm09bgagshpkqbsup0">View more</a>
+                    </td>
+                </tr><tr _ngcontent-dxr-6="">
+                    <td _ngcontent-dxr-6="" class="thumbnail">
+                        <a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsv00|c0bm09jgagshpkqbsv2g">
+                            <img _ngcontent-dxr-6="" class="img-thumbnail" src="/img/cars/Lancia-rally.jpg" title="Lancia Rally 037">
+                        </a>
+                    </td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/make/c0bm09jgagshpkqbsv00">Lancia</a></td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsv00|c0bm09jgagshpkqbsv2g">Rally 037</a></td>
+                    <td _ngcontent-dxr-6="">4</td>
+                    <td _ngcontent-dxr-6="">828</td>
+                    <td _ngcontent-dxr-6="">2.0l</td>
+                    <td _ngcontent-dxr-6="">
+                        <!--template bindings={}--><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">aaaa</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">2341234123412341234123412341234</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsv00|c0bm09jgagshpkqbsv2g">View more</a>
+                    </td>
+                </tr><tr _ngcontent-dxr-6="">
+                    <td _ngcontent-dxr-6="" class="thumbnail">
+                        <a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsuq0|c0bm09jgagshpkqbsurg">
+                            <img _ngcontent-dxr-6="" class="img-thumbnail" src="/img/cars/Huayra.jpg" title="Pagani Huayra">
+                        </a>
+                    </td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/make/c0bm09jgagshpkqbsuq0">Pagani</a></td>
+                    <td _ngcontent-dxr-6=""><a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsuq0|c0bm09jgagshpkqbsurg">Huayra</a></td>
+                    <td _ngcontent-dxr-6="">5</td>
+                    <td _ngcontent-dxr-6="">804</td>
+                    <td _ngcontent-dxr-6="">5.98l</td>
+                    <td _ngcontent-dxr-6="">
+                        <!--template bindings={}--><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">Cool</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">Cool</p>
+                        </div><div _ngcontent-dxr-6="">
+                            <p _ngcontent-dxr-6="" class="comment small">Cool</p>
+                        </div>
+                        <!--template bindings={}--><a _ngcontent-dxr-6="" href="/model/c0bm09jgagshpkqbsuq0|c0bm09jgagshpkqbsurg">View more</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <my-pager _ngcontent-dxr-6="" _nghost-dxr-7=""><!--template bindings={}--><div _ngcontent-dxr-7="" class="row">
+    <div _ngcontent-dxr-7="" class="pull-xs-right">
+        <a _ngcontent-dxr-7="" class="btn disabled">«</a>
+        <input _ngcontent-dxr-7="" class="form-control input-xs ng-untouched ng-pristine ng-valid" type="text">
+        <a _ngcontent-dxr-7="" class="btn">»</a>
+        page 1 of 5
+    </div>
+</div></my-pager>
+</div></my-overall>
+  </main>
+
+  <hr _ngcontent-dxr-1="">
+
+  <footer _ngcontent-dxr-1="" class="footer">
+    <div _ngcontent-dxr-1="" class="container">
+      <div _ngcontent-dxr-1="" class="pull-xs-right">
+        <a _ngcontent-dxr-1="" href="https://www.facebook.com" target="_blank" title="Facebook">
+          <img _ngcontent-dxr-1="" src="/img/FB-f-Logo__blue_29.png">
+        </a>
+
+        <a _ngcontent-dxr-1="" target="_blank" title="Twitter" href="https://www.twitter-broken.com/">
+          <img _ngcontent-dxr-1="" src="/img/twitter.png">
+        </a>
+      </div>
+
+      <p _ngcontent-dxr-1="">© 2016 Buggy Software, Inc.</p>
+    </div>
+  </footer>
+</div></my-app>
+  <script type="text/javascript" src="/js/polyfills.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/vendor.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/app.a5856ccaff510c09debf.js"></script>
+
+</body></html>

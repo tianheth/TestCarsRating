@@ -1,0 +1,213 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Buggy Cars Rating</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <base href="/">
+  <link href="/css/vendor.a5856ccaff510c09debf.css" rel="stylesheet"><link href="/css/app.a5856ccaff510c09debf.css" rel="stylesheet"><style></style><style>.card[_ngcontent-ueq-4] img[_ngcontent-ueq-4]{height:170px;margin-top:20px}</style><style>input[_ngcontent-ueq-7]{display:inline-block;width:40px;padding-left:5px;text-align:center}</style></head>
+  <body>
+    <my-app _nghost-ueq-1=""><header _ngcontent-ueq-1="">
+  <nav _ngcontent-ueq-1="" class="navbar navbar-full navbar-dark bg-inverse">
+    <div _ngcontent-ueq-1="" class="container">
+      <a _ngcontent-ueq-1="" class="navbar-brand" href="/broken">Buggy Rating</a>
+      <my-login _ngcontent-ueq-1="" _nghost-ueq-2=""><!--template bindings={}--><div _ngcontent-ueq-2="" class="pull-xs-right">
+    <form _ngcontent-ueq-2="" class="form-inline">
+        <div _ngcontent-ueq-2="" class="form-group">
+            <!--template bindings={}-->
+            <input _ngcontent-ueq-2="" class="form-control form-control-sm input-sm ng-untouched ng-pristine ng-invalid" name="login" ngmodel="" placeholder="Login" required="" type="text">
+            <input _ngcontent-ueq-2="" class="form-control form-control-sm ng-untouched ng-pristine ng-invalid" name="password" ngmodel="" required="" type="password">
+        </div>
+        <button _ngcontent-ueq-2="" class="btn btn-success" type="submit">Login</button>
+        <a _ngcontent-ueq-2="" class="btn btn-success-outline" href="/register">Register</a>
+    </form>
+</div>
+
+<!--template bindings={}--></my-login>
+    </div>
+  </nav>
+
+  <div _ngcontent-ueq-1="" class="jumbotron jumbotron-fluid">
+    <div _ngcontent-ueq-1="" class="container">
+      <div _ngcontent-ueq-1="" class="row">
+        <div _ngcontent-ueq-1="" class="col-md-4">
+          <h1 _ngcontent-ueq-1="" class="display-4">Buggy<br _ngcontent-ueq-1="">Cars<br _ngcontent-ueq-1="">Rating</h1>
+        </div>
+        <div _ngcontent-ueq-1="" class="col-md-8">
+          <div _ngcontent-ueq-1="" class="center-block">
+            <img _ngcontent-ueq-1="" class="img-fluid" src="/img/header-car.gif">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div _ngcontent-ueq-1="" class="container" role="main">
+  <main _ngcontent-ueq-1="" class="row">
+    <router-outlet _ngcontent-ueq-1=""></router-outlet><my-make><!--template bindings={}-->
+<!--template bindings={}--><div class="container">
+    <div class="row">
+        <div class="card">
+            <h3 class="card-header">Lamborghini</h3>
+            <div class="card-block">
+                <div class="container">
+                    <div class="col-md-3">
+                        <a href="javascript:void(0)">
+                            <img class="img-fluid" src="/img/cars/Lamborghini-Logo.png" title="Lamborghini">
+                        </a>
+                    </div>
+                    <div class="col-md-9">
+                        <div><p><strong>Automobili Lamborghini S.p.A.</strong> is an Italian brand and manufacturer of luxury sports cars and SUVs based in Sant'Agata Bolognese, Italy. The company is owned by the Volkswagen Group through its subsidiary Audi. In 2015, Lamborghini's 1,175 employees produced 3,248 vehicles.</p>
+<p>Ferruccio Lamborghini, an Italian manufacturing magnate, founded Automobili Ferruccio Lamborghini S.p.A. in 1963 to compete with established marques, including Ferrari. The company gained wide acclaim in 1966 for the Miura sports coupé, which established rear mid-engine, rear wheel drive as the standard layout for high-performance cars of the era. Lamborghini grew rapidly during its first decade, but sales plunged in the wake of the 1973 worldwide financial downturn and the oil crisis. The firm's ownership changed three times after 1973, including a bankruptcy in 1978. American Chrysler Corporation took control of Lamborghini in 1987 and sold it to Malaysian investment group Mycom Setdco and Indonesian group V'Power Corporation in 1994. In 1998, Mycom Setdco and V'Power sold Lamborghini to the Volkswagen Group where it was placed under the control of the group's Audi division.</p>
+<p>Lamborghini produces sports cars and V12 engines for offshore powerboat racing. Lamborghini currently produces the V12-powered Aventador and the V10-powered Huracán.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            <div class="row">
+                <table class="cars table table-hover">
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th><a>Model</a></th>
+                            <th><a>Rank</a></th>
+                            <th><a>Votes</a></th>
+                            <th class="comments">Comments</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--template bindings={}--><tr>
+                            <td>
+                                <a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuh0">
+                                    <img class="img-thumbnail" src="/img/cars/Diablo.jpg" title="Lamborghini Diablo">
+                                </a>
+                            </td>
+                            <td><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuh0">Diablo</a></td>
+                            <td>1</td>
+                            <td>2295</td>
+                            <td>
+                                <!--template bindings={}--><div>
+                                    <p class="comment small">I like Lamborghini Diablo on 21080900004247</p>
+                                </div><div>
+                                    <p class="comment small">a diablo is a diablo</p>
+                                </div><div>
+                                    <p class="comment small">good</p>
+                                </div>
+                                <!--template bindings={}--><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuh0">View more</a>
+                            </td>
+                        </tr><tr>
+                            <td>
+                                <a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsue0">
+                                    <img class="img-thumbnail" src="/img/cars/veneno.jpg" title="Lamborghini Veneno">
+                                </a>
+                            </td>
+                            <td><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsue0">Veneno</a></td>
+                            <td>2</td>
+                            <td>762</td>
+                            <td>
+                                <!--template bindings={}--><div>
+                                    <p class="comment small">tes</p>
+                                </div><div>
+                                    <p class="comment small">aaaa</p>
+                                </div><div>
+                                    <p class="comment small">sample data</p>
+                                </div>
+                                <!--template bindings={}--><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsue0">View more</a>
+                            </td>
+                        </tr><tr>
+                            <td>
+                                <a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuf0">
+                                    <img class="img-thumbnail" src="/img/cars/reventon.jpg" title="Lamborghini Reventón">
+                                </a>
+                            </td>
+                            <td><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuf0">Reventón</a></td>
+                            <td>3</td>
+                            <td>705</td>
+                            <td>
+                                <!--template bindings={}--><div>
+                                    <p class="comment small">Reventon is Renventon</p>
+                                </div><div>
+                                    <p class="comment small">Reventon is Renventon</p>
+                                </div><div>
+                                    <p class="comment small">Reventon is Renventon</p>
+                                </div>
+                                <!--template bindings={}--><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuf0">View more</a>
+                            </td>
+                        </tr><tr>
+                            <td>
+                                <a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuc0">
+                                    <img class="img-thumbnail" src="/img/cars/aventador.jpg" title="Lamborghini AVENTADOR">
+                                </a>
+                            </td>
+                            <td><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuc0">AVENTADOR</a></td>
+                            <td>4</td>
+                            <td>700</td>
+                            <td>
+                                <!--template bindings={}--><div>
+                                    <p class="comment small">aaaa</p>
+                                </div><div>
+                                    <p class="comment small">Sample</p>
+                                </div><div>
+                                    <p class="comment small">23</p>
+                                </div>
+                                <!--template bindings={}--><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsuc0">View more</a>
+                            </td>
+                        </tr><tr>
+                            <td>
+                                <a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsug0">
+                                    <img class="img-thumbnail" src="/img/cars/Murcielago.jpg" title="Lamborghini Murciélago">
+                                </a>
+                            </td>
+                            <td><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsug0">Murciélago</a></td>
+                            <td>5</td>
+                            <td>691</td>
+                            <td>
+                                <!--template bindings={}--><div>
+                                    <p class="comment small">12345</p>
+                                </div><div>
+                                    <p class="comment small">areareare</p>
+                                </div><div>
+                                    <p class="comment small">aaaa</p>
+                                </div>
+                                <!--template bindings={}--><a href="/model/c0bm09bgagshpkqbsuag|c0bm09bgagshpkqbsug0">View more</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <my-pager _nghost-ueq-7=""><!--template bindings={}--><div _ngcontent-ueq-7="" class="row">
+    <div _ngcontent-ueq-7="" class="pull-xs-right">
+        <a _ngcontent-ueq-7="" class="btn disabled">«</a>
+        <input _ngcontent-ueq-7="" class="form-control input-xs ng-untouched ng-pristine ng-valid" type="text">
+        <a _ngcontent-ueq-7="" class="btn">»</a>
+        page 1 of 2
+    </div>
+</div></my-pager>
+        </div>
+    </div>
+</div></my-make>
+  </main>
+
+  <hr _ngcontent-ueq-1="">
+
+  <footer _ngcontent-ueq-1="" class="footer">
+    <div _ngcontent-ueq-1="" class="container">
+      <div _ngcontent-ueq-1="" class="pull-xs-right">
+        <a _ngcontent-ueq-1="" href="https://www.facebook.com" target="_blank" title="Facebook">
+          <img _ngcontent-ueq-1="" src="/img/FB-f-Logo__blue_29.png">
+        </a>
+
+        <a _ngcontent-ueq-1="" target="_blank" title="Twitter" href="https://www.twitter.com">
+          <img _ngcontent-ueq-1="" src="/img/twitter.png">
+        </a>
+      </div>
+
+      <p _ngcontent-ueq-1="">© 2016 Buggy Software, Inc.</p>
+    </div>
+  </footer>
+</div></my-app>
+  <script type="text/javascript" src="/js/polyfills.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/vendor.a5856ccaff510c09debf.js"></script><script type="text/javascript" src="/js/app.a5856ccaff510c09debf.js"></script>
+
+</body></html>
